@@ -1,0 +1,257 @@
+        /*Roots*/
+
+
+  :root {
+    --snowy: #FFFFFF !important;
+    --sand: #ecc091 !important;
+    --darkSand: #b87947!important;
+    --dust: #6C6C6C !important;
+    --inky: #17161B !important;
+  }  
+        
+        
+        /*Style global*/
+        
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    /*les font cursive ne fonctionnent pas*/
+}
+
+*::selection { 
+    color: var(--inky);
+    background-color: var(--sand); 
+}
+
+main {
+    /* padding-top: 5em; */
+    background-color: var(--inky);
+    min-height: 92vh;
+}
+
+.bg-snowy {
+    background-color: var(--snowy);
+}
+
+.bg-inky {
+    background-color: var(--inky);
+}
+
+.bg-sand {
+    background-color: var(--darkSand);
+}
+
+.bg-dust {
+    background-color: var(--dust);
+}
+
+.color-snowy {
+    color: var(--snowy);
+}
+
+.color-sand {
+    color: var(--sand);
+}
+
+.color-inky {
+color: var(--inky);
+}
+
+.color-dust {
+color: var(--dust);
+}
+
+.border-snowy {
+    border: var(--snowy);
+}
+
+.border-inky {
+    border: var(--inky);
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-test {
+    font-size: 23px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.text-shadow {
+    text-shadow: black 1px 0 10px;
+}
+
+section {
+    width: 100%;
+}
+
+.bulle {
+    height: 70px;
+    width: 70px;
+}
+
+.img-blur {
+    backdrop-filter: blur(3px);
+    height: 80vh;
+}
+
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    color: var(--darkSand);
+}
+
+        /*Page accueil*/
+
+
+    /*Section 1*/
+
+.accueil .hero {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-bottom: 100px;
+    height: 700px;
+}
+
+.accueil .img2 {
+    top: -100px;
+}
+
+.accueil .text-presentation {
+    top: 50%;
+}
+
+.accueil .text-presentation {
+    text-wrap: balance;
+}
+
+    /*Section 2*/
+
+.accueil .hero2 {
+    height: 800px;
+}
+
+.accueil .img-chef {
+    padding-left: 100px;
+    top: -80px;
+}
+
+    /*Section 3*/
+
+.accueil .hero3 {
+    background: center / cover no-repeat url('../images/presentation.png');
+    height: 90vh;
+}
+
+
+        /*Page carte*/
+
+
+    /*Section 1*/
+
+.carte .presentation {
+    background: bottom / cover no-repeat url('../images/istockphoto-497027464-612x612.jpg');
+    height: 95vh;
+}
+
+    /*Section Menus*/
+
+.carte .grid-retest {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.carte .menu1 {
+    background: center / cover no-repeat url('../images/plat20.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.carte .menu2 {
+    background: center / cover no-repeat url('../images/plat10.png');
+    height: 100%;
+    width: 100%;
+}
+
+.carte .menu3 {
+    background: center / cover no-repeat url('../images/plat32.png');
+    height: 100%;
+    width: 100%;
+}
+
+.carte .menu4 {
+    background: center / cover no-repeat url('../images/plat35.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.carte .menu5 {
+    background: center / cover no-repeat url('../images/dango22.webp');
+    height: 100%;
+    width: 100%;
+}
+
+.carte .menu6 {
+    background: center / cover no-repeat url('../images/omorice1.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.carte .card {
+    border-radius: 10px;
+}
+
+.carte .prix {
+    transform: rotate(15deg);
+    left: 90%;
+    font-size: 13px;
+    bottom: 15px;
+}
+
+
+        /*Page contact*/
+
+
+.contact iframe {
+    height: 70vh;
+    width: 60%;
+}
+
+
+        /*Footer*/
+
+
+footer .test {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    /*Script*/
+
+.width100 {
+    width: 100% !important;
+}
+
+.moitie-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}

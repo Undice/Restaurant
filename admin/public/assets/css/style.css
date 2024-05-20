@@ -1,0 +1,105 @@
+        /*Roots*/
+
+
+  :root {
+    --snowy: #FFFFFF !important;
+    --sand: #ecc091 !important;
+    --darkSand: #b87947!important;
+    --dust: #6C6C6C !important;
+    --inky: #17161B !important;
+  }  
+        
+        
+        /*Style global*/
+        
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: var(--inky);
+    background-color: var(--sand); 
+}
+
+a {
+    color: var(--sand);
+}
+
+main {
+    background-color: var(--inky);
+    min-height: 100vh;
+    height: 100%;
+}
+
+section {
+    padding: 50px 10rem !important;
+}
+
+.bg-snowy {
+    background-color: var(--snowy);
+}
+
+.bg-inky {
+    background-color: var(--inky);
+}
+
+.bg-sand {
+    background-color: var(--darkSand);
+}
+
+.bg-dust {
+    background-color: var(--dust);
+}
+
+.color-snowy {
+    color: var(--snowy);
+}
+
+.color-sand {
+    color: var(--sand);
+}
+
+.color-inky {
+color: var(--inky);
+}
+
+.color-dust {
+color: var(--dust);
+}
+
+.border-snowy {
+    border: var(--snowy);
+}
+
+.border-inky {
+    border: var(--inky);
+}
+
+.text-shadow {
+    text-shadow: black 1px 0 10px;
+}
+
+.moitie-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+h1 {
+    color: var(--snowy);
+}
+
+.img-bo {
+height: 70px;
+width: auto;
+}
+
+        /*Page Menu*/
+
+
+.menu > div {
+    min-height: 100vh;
+    height: 100%;
+}
